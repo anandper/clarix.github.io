@@ -37,8 +37,6 @@ export const Footer = () => (
           <div className="text-xs uppercase tracking-[0.2em] text-ivory/50 mb-4">Firm</div>
           <ul className="space-y-3 text-sm text-ivory/80">
             <li><Link to="/about" className="hover:text-ivory">About</Link></li>
-            <li><Link to="/results" className="hover:text-ivory">Results</Link></li>
-            <li><Link to="/insights" className="hover:text-ivory">Insights</Link></li>
             <li><Link to="/contact" className="hover:text-ivory">Contact</Link></li>
           </ul>
         </div>

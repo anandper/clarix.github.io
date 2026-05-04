@@ -6,12 +6,10 @@ import { cn } from "@/lib/utils";
 
 const links = [
   { to: "/", label: "Home" },
-  { to: "/services", label: "Advisory Services" },
+  { to: "/services", label: "Quality & Regulatory" },
   { to: "/software", label: "Software Development" },
   { to: "/industries", label: "Industries" },
   { to: "/about", label: "About" },
-  { to: "/results", label: "Results" },
-  { to: "/insights", label: "Insights" },
 ];
 
 export const Navbar = () => {
