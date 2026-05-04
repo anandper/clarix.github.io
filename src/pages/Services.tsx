@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, ShieldCheck, Cpu, Compass, Check } from "lucide-react";
+import { ArrowRight, ShieldCheck, Compass, Check } from "lucide-react";
 import { PageHero } from "@/components/site/PageHero";
 import { CTABanner } from "@/components/site/CTABanner";
 
@@ -21,22 +21,8 @@ const sections = [
     ],
   },
   {
-    icon: Cpu,
-    label: "02 — Practice",
-    title: "Software Delivery Leadership",
-    blurb: "Engineering org leadership, technology modernization, and AI/cloud transformation — delivered with the rigor regulated environments require.",
-    items: [
-      "End-to-end program delivery",
-      "Engineering team leadership",
-      "Technology modernization",
-      "AI & Cloud transformation",
-      "DevSecOps & CI/CD implementation",
-      "Delivery in regulated environments",
-    ],
-  },
-  {
     icon: Compass,
-    label: "03 — Practice",
+    label: "02 — Practice",
     title: "Program & Project Management",
     blurb: "Cross-functional orchestration that turns ambition into measurable, on-time outcomes — with the financial and risk discipline executives expect.",
     items: [
@@ -53,9 +39,9 @@ const sections = [
 const Services = () => (
   <div>
     <PageHero
-      eyebrow="Services"
-      title="Three disciplines. Senior operators. Measurable outcomes."
-      lede="Each engagement is led by a principal with deep, hands-on experience in your industry — designed to move quickly, leave you stronger, and stand up to audit."
+      eyebrow="Advisory Services"
+      title="Quality, regulatory, and program leadership."
+      lede="Two advisory practices led by senior operators with deep, hands-on experience in regulated industries. Looking for software delivery? See our dedicated Software Development practice."
     />
 
     {sections.map((s, i) => (
