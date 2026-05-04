@@ -27,7 +27,7 @@ export const Footer = () => (
           <div className="text-xs uppercase tracking-[0.2em] text-ivory/50 mb-4">Practice</div>
           <ul className="space-y-3 text-sm text-ivory/80">
             <li><Link to="/services" className="hover:text-ivory">Quality & Regulatory</Link></li>
-            <li><Link to="/services" className="hover:text-ivory">Software Delivery</Link></li>
+            <li><Link to="/software" className="hover:text-ivory">Software Development</Link></li>
             <li><Link to="/services" className="hover:text-ivory">Program Management</Link></li>
             <li><Link to="/industries" className="hover:text-ivory">Industries</Link></li>
           </ul>

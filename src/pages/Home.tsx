@@ -10,16 +10,19 @@ const pillars = [
     icon: ShieldCheck,
     title: "Quality & Regulatory Transformation",
     body: "QMS/eQMS, audits, CAPA, EU MDR & QMSR transitions — built for regulated reality.",
+    href: "/services",
   },
   {
     icon: Cpu,
     title: "Software Delivery Leadership",
     body: "Engineering org leadership, AI & cloud modernization, DevSecOps in regulated environments.",
+    href: "/software",
   },
   {
     icon: Compass,
     title: "Program & Project Management",
     body: "Cross-functional orchestration with OKRs, KPIs, risk modeling, and delivery rigor.",
+    href: "/services",
   },
 ];
 
@@ -92,7 +95,7 @@ const Home = () => {
                 </div>
                 <h3 className="font-display text-2xl mt-8 text-ink leading-snug">{p.title}</h3>
                 <p className="mt-4 text-muted-foreground leading-relaxed">{p.body}</p>
-                <Link to="/services" className="mt-8 inline-flex items-center gap-2 text-sm font-medium text-ink link-underline">
+                <Link to={p.href} className="mt-8 inline-flex items-center gap-2 text-sm font-medium text-ink link-underline">
                   Learn more <ArrowUpRight className="size-4" />
                 </Link>
               </div>
