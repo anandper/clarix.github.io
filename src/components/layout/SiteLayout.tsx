@@ -7,7 +7,7 @@ export const SiteLayout = () => {
   const { pathname } = useLocation();
   useEffect(() => { window.scrollTo(0, 0); }, [pathname]);
   return (
-    <div className="min-h-screen flex flex-col bg-background">
+    <div className="min-h-screen flex flex-col bg-gradient-ivory">
       <Navbar />
       <main className="flex-1 pt-20">
         <Outlet />
