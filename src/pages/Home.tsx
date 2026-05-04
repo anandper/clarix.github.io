@@ -50,12 +50,12 @@ const Home = () => {
         <div className="container-tight pt-16 md:pt-24 pb-20 md:pb-32 relative">
           <div className="grid md:grid-cols-12 gap-12 items-center">
             <div className="md:col-span-7 animate-fade-up">
-              <div className="eyebrow"><span className="h-px w-8 bg-brass" />Senior Advisory · Quality · Delivery</div>
+              <div className="eyebrow"><span className="h-px w-8 bg-brass" />Clarix Consulting Group</div>
               <h1 className="font-display text-5xl md:text-7xl lg:text-[5.5rem] font-light leading-[0.98] mt-6 text-ink text-balance">
-                Where complexity<br/>meets <em className="italic text-brass font-normal">clarity.</em>
+                Clarity. <em className="italic text-brass font-normal">Delivered.</em>
               </h1>
               <p className="mt-8 text-lg md:text-xl text-muted-foreground max-w-xl leading-relaxed text-pretty">
-                Senior consulting leadership for Quality & Regulatory transformation, Software Delivery, and Program Management — for Life Sciences and Technology companies.
+                Principal-led consulting for Life Sciences and Technology — Quality & Regulatory transformation, Software Development, and Program Management. Senior operators who've already done the work.
               </p>
               <div className="mt-10 flex flex-wrap items-center gap-4">
                 <Button asChild variant="ink" size="xl">
@@ -167,7 +167,7 @@ const Home = () => {
           </div>
           <div className="mt-12">
             <Button asChild variant="outlineIvory" size="lg">
-              <Link to="/results">See the case studies <ArrowRight /></Link>
+              <Link to="/software">See software case studies <ArrowRight /></Link>
             </Button>
           </div>
         </div>
